@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поиск страны по номеру телефона</title>
+    <script>
+        async function findCountry() {
+            const phoneNumber = document.getElementById('phoneNumber').value;
+            const resultDiv = document.getElementById('result');
+
+            resultDiv.innerText = '';
+
+            if (!validatePhoneNumber(phoneNumber)) {
+                resultDiv.innerText = 'Неверный формат номера! Пример: +код_страны пробел остальной номер';
+                return;
+            }
+
+            try {
+                const response = await fetch(
+                    `http://localhost:8088/country/phone?phoneNumber=${encodeURIComponent(phoneNumber)}`);
+
+                if (response.ok) {
+                    const data = await response.json();
+
+                    let resultText = '';
+                    for (const [code, countries] of Object.entries(data)) {
+                        resultText += `Код: ${code}, Страны: ${countries.join(', ')}\n`;
+                    }
+                    resultDiv.innerText = resultText;
+                } else {
+                    const errorText = await response.text();
+                    resultDiv.innerText = `Ошибка: ${errorText}`;
+                }
+            } catch (error) {
+                // Обработка сетевых ошибок
+                resultDiv.innerText = `Ошибка: ${error.message}`;
+            }
+        }
+
+        function validatePhoneNumber(phoneNumber) {
+            const regex = /^\+\d{1,3} \d{6,15}$/;
+            return regex.test(phoneNumber);
+        }
+    </script>
+</head>
+<body>
+<h1>Поиск страны по номеру телефона</h1>
+<form onsubmit="event.preventDefault(); findCountry();">
+    <label for="phoneNumber">Введите номер телефона:</label>
+    <input type="text" id="phoneNumber" required placeholder="+7 9123456789">
+    <button type="submit">Найти страну</button>
+</form>
+<div id="result"></div>
+</body>
+</html>

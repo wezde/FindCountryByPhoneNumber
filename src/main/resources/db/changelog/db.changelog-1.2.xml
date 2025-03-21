@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <changeSet id="1" author="Pudul Aleksandr">
+        <!-- Германия -->
+        <insert tableName="country">
+            <column name="country_name" value="Германия"/>
+            <column name="country_code" value="+49"/>
+            <column name="iso_code" value="DE"/>
+        </insert>
+
+        <!-- Франция -->
+        <insert tableName="country">
+            <column name="country_name" value="Франция"/>
+            <column name="country_code" value="+33"/>
+            <column name="iso_code" value="FR"/>
+        </insert>
+
+        <!-- Китай -->
+        <insert tableName="country">
+            <column name="country_name" value="Китай"/>
+            <column name="country_code" value="+86"/>
+            <column name="iso_code" value="CN"/>
+        </insert>
+
+        <!-- Япония -->
+        <insert tableName="country">
+            <column name="country_name" value="Япония"/>
+            <column name="country_code" value="+81"/>
+            <column name="iso_code" value="JP"/>
+        </insert>
+
+        <!-- Индия -->
+        <insert tableName="country">
+            <column name="country_name" value="Индия"/>
+            <column name="country_code" value="+91"/>
+            <column name="iso_code" value="IN"/>
+        </insert>
+
+        <!-- Австралия -->
+        <insert tableName="country">
+            <column name="country_name" value="Австралия"/>
+            <column name="country_code" value="+61"/>
+            <column name="iso_code" value="AU"/>
+        </insert>
+
+        <!-- Бразилия -->
+        <insert tableName="country">
+            <column name="country_name" value="Бразилия"/>
+            <column name="country_code" value="+55"/>
+            <column name="iso_code" value="BR"/>
+        </insert>
+
+        <!-- Италия -->
+        <insert tableName="country">
+            <column name="country_name" value="Италия"/>
+            <column name="country_code" value="+39"/>
+            <column name="iso_code" value="IT"/>
+        </insert>
+
+        <!-- Испания -->
+        <insert tableName="country">
+            <column name="country_name" value="Испания"/>
+            <column name="country_code" value="+34"/>
+            <column name="iso_code" value="ES"/>
+        </insert>
+
+        <!-- Южная Корея -->
+        <insert tableName="country">
+            <column name="country_name" value="Южная Корея"/>
+            <column name="country_code" value="+82"/>
+            <column name="iso_code" value="KR"/>
+        </insert>
+
+        <!-- Мексика -->
+        <insert tableName="country">
+            <column name="country_name" value="Мексика"/>
+            <column name="country_code" value="+52"/>
+            <column name="iso_code" value="MX"/>
+        </insert>
+
+        <!-- Турция -->
+        <insert tableName="country">
+            <column name="country_name" value="Турция"/>
+            <column name="country_code" value="+90"/>
+            <column name="iso_code" value="TR"/>
+        </insert>
+
+        <!-- Нидерланды -->
+        <insert tableName="country">
+            <column name="country_name" value="Нидерланды"/>
+            <column name="country_code" value="+31"/>
+            <column name="iso_code" value="NL"/>
+        </insert>
+
+        <!-- Швейцария -->
+        <insert tableName="country">
+            <column name="country_name" value="Швейцария"/>
+            <column name="country_code" value="+41"/>
+            <column name="iso_code" value="CH"/>
+        </insert>
+
+        <!-- Швеция -->
+        <insert tableName="country">
+            <column name="country_name" value="Швеция"/>
+            <column name="country_code" value="+46"/>
+            <column name="iso_code" value="SE"/>
+        </insert>
+
+        <!-- Польша -->
+        <insert tableName="country">
+            <column name="country_name" value="Польша"/>
+            <column name="country_code" value="+48"/>
+            <column name="iso_code" value="PL"/>
+        </insert>
+
+        <!-- Аргентина -->
+        <insert tableName="country">
+            <column name="country_name" value="Аргентина"/>
+            <column name="country_code" value="+54"/>
+            <column name="iso_code" value="AR"/>
+        </insert>
+
+    </changeSet>
+
+</databaseChangeLog>
