@@ -7,20 +7,512 @@
 
     <changeSet id="1" author="Pudul Aleksandr">
         <insert tableName="country">
-            <column name="country_name" value="Россия"/>
-            <column name="country_code" value="+7"/>
-            <column name="iso_code" value="RU"/>
+            <column name="country_name" value="United States or Canada"/>
+            <column name="country_code" value="1"/>
         </insert>
         <insert tableName="country">
-            <column name="country_name" value="США"/>
-            <column name="country_code" value="+1"/>
-            <column name="iso_code" value="US"/>
+            <column name="country_name" value="Bahamas"/>
+            <column name="country_code" value="1242"/>
         </insert>
         <insert tableName="country">
-            <column name="country_name" value="Великобритания"/>
-            <column name="country_code" value="+44"/>
-            <column name="iso_code" value="GB"/>
+            <column name="country_name" value="Barbados"/>
+            <column name="country_code" value="1246"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Anguilla"/>
+            <column name="country_code" value="1264"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Antigua and Barbuda"/>
+            <column name="country_code" value="1268"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="British Virgin Islands"/>
+            <column name="country_code" value="1284"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="US Virgin Islands"/>
+            <column name="country_code" value="1340"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Cayman Islands"/>
+            <column name="country_code" value="1345"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Bermuda"/>
+            <column name="country_code" value="1441"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Grenada"/>
+            <column name="country_code" value="1473"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Turks and Caicos Islands"/>
+            <column name="country_code" value="1649"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Montserrat"/>
+            <column name="country_code" value="1664"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Northern Mariana Islands"/>
+            <column name="country_code" value="1670"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Guam"/>
+            <column name="country_code" value="1671"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="American Samoa"/>
+            <column name="country_code" value="1684"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Sint Maarten (Netherlands)"/>
+            <column name="country_code" value="1721"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Saint Lucia"/>
+            <column name="country_code" value="1758"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Dominica"/>
+            <column name="country_code" value="1767"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Saint Vincent and the Grenadines"/>
+            <column name="country_code" value="1784"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Puerto Rico-1"/>
+            <column name="country_code" value="1787"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Puerto Rico-2"/>
+            <column name="country_code" value="1939"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Puerto Rico"/>
+            <column name="country_code" value="1808"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Dominican Republic-1"/>
+            <column name="country_code" value="1809"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Dominican Republic-2"/>
+            <column name="country_code" value="1829"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Dominican Republic-3"/>
+            <column name="country_code" value="1849"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Trinidad and Tobago"/>
+            <column name="country_code" value="1868"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Nevis or Saint Kitts and Nevis"/>
+            <column name="country_code" value="1869"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Jamaica-1"/>
+            <column name="country_code" value="1658"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Jamaica-2"/>
+            <column name="country_code" value="1876"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Egypt"/>
+            <column name="country_code" value="20"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="South Sudan"/>
+            <column name="country_code" value="211"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Morocco"/>
+            <column name="country_code" value="212"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Algeria"/>
+            <column name="country_code" value="213"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Tunisia"/>
+            <column name="country_code" value="216"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Libya"/>
+            <column name="country_code" value="218"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Gambia"/>
+            <column name="country_code" value="220"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Senegal"/>
+            <column name="country_code" value="221"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Mauritania"/>
+            <column name="country_code" value="222"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Mali"/>
+            <column name="country_code" value="223"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Guinea"/>
+            <column name="country_code" value="224"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Ivory Coast (Côte d'Ivoire)"/>
+            <column name="country_code" value="225"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Burkina Faso"/>
+            <column name="country_code" value="226"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Niger"/>
+            <column name="country_code" value="227"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Togo"/>
+            <column name="country_code" value="228"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Benin"/>
+            <column name="country_code" value="229"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Mauritius"/>
+            <column name="country_code" value="230"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Liberia"/>
+            <column name="country_code" value="231"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Sierra Leone"/>
+            <column name="country_code" value="232"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Ghana"/>
+            <column name="country_code" value="233"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Nigeria"/>
+            <column name="country_code" value="234"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Chad"/>
+            <column name="country_code" value="235"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Central African Republic"/>
+            <column name="country_code" value="236"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Cameroon"/>
+            <column name="country_code" value="237"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Cape Verde"/>
+            <column name="country_code" value="238"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="São Tomé and Príncipe"/>
+            <column name="country_code" value="239"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Equatorial Guinea"/>
+            <column name="country_code" value="240"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Gabon"/>
+            <column name="country_code" value="241"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Congo"/>
+            <column name="country_code" value="242"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Congo, Democratic Republic of the"/>
+            <column name="country_code" value="243"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Angola"/>
+            <column name="country_code" value="244"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Guinea-Bissau"/>
+            <column name="country_code" value="245"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="British Indian Ocean Territory (Diego Garcia)"/>
+            <column name="country_code" value="246"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Ascension"/>
+            <column name="country_code" value="247"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Seychelles"/>
+            <column name="country_code" value="248"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Sudan"/>
+            <column name="country_code" value="249"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Rwanda"/>
+            <column name="country_code" value="250"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Ethiopia"/>
+            <column name="country_code" value="251"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Somalia"/>
+            <column name="country_code" value="252"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Djibouti"/>
+            <column name="country_code" value="253"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Kenya"/>
+            <column name="country_code" value="254"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Tanzania"/>
+            <column name="country_code" value="255"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Zanzibar"/>
+            <column name="country_code" value="25524"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Uganda"/>
+            <column name="country_code" value="256"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Burundi"/>
+            <column name="country_code" value="257"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Mozambique"/>
+            <column name="country_code" value="258"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Zambia"/>
+            <column name="country_code" value="260"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Madagascar"/>
+            <column name="country_code" value="261"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Réunion or Mayotte"/>
+            <column name="country_code" value="262"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Zimbabwe"/>
+            <column name="country_code" value="263"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Namibia"/>
+            <column name="country_code" value="264"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Malawi"/>
+            <column name="country_code" value="265"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Lesotho"/>
+            <column name="country_code" value="266"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Botswana"/>
+            <column name="country_code" value="267"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Eswatini"/>
+            <column name="country_code" value="268"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Comoros"/>
+            <column name="country_code" value="269"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="South Africa"/>
+            <column name="country_code" value="27"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Saint Helena"/>
+            <column name="country_code" value="290"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Tristan da Cunha"/>
+            <column name="country_code" value="2908"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Eritrea"/>
+            <column name="country_code" value="291"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Aruba"/>
+            <column name="country_code" value="297"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Faroe Islands"/>
+            <column name="country_code" value="298"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Greenland"/>
+            <column name="country_code" value="299"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Greece"/>
+            <column name="country_code" value="30"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Netherlands"/>
+            <column name="country_code" value="31"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Belgium"/>
+            <column name="country_code" value="32"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="France"/>
+            <column name="country_code" value="33"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Spain"/>
+            <column name="country_code" value="34"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value=""/>
+            <column name="country_code" value="350"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Portugal"/>
+            <column name="country_code" value="351"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Luxembourg"/>
+            <column name="country_code" value="352"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Ireland"/>
+            <column name="country_code" value="353"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Iceland"/>
+            <column name="country_code" value="354"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Albania"/>
+            <column name="country_code" value="355"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Malta"/>
+            <column name="country_code" value="365"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Cyprus"/>
+            <column name="country_code" value="357"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Finland"/>
+            <column name="country_code" value="358"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Åland"/>
+            <column name="country_code" value="35818"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Bulgaria"/>
+            <column name="country_code" value="359"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Hungary"/>
+            <column name="country_code" value="36"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Lithuania"/>
+            <column name="country_code" value="370"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Latvia"/>
+            <column name="country_code" value="371"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Estonia"/>
+            <column name="country_code" value="372"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Moldova or Transnistria"/>
+            <column name="country_code" value="373"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Armenia"/>
+            <column name="country_code" value="374"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Belarus"/>
+            <column name="country_code" value="375"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Andorra"/>
+            <column name="country_code" value="376"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Monaco"/>
+            <column name="country_code" value="377"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="San Marino"/>
+            <column name="country_code" value="378"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Ukraine"/>
+            <column name="country_code" value="380"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Serbia"/>
+            <column name="country_code" value="381"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Montenegro"/>
+            <column name="country_code" value="382"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Kosovo"/>
+            <column name="country_code" value="383"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Croatia"/>
+            <column name="country_code" value="385"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Slovenia"/>
+            <column name="country_code" value="386"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Bosnia and Herzegovina"/>
+            <column name="country_code" value="387"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="North Macedonia"/>
+            <column name="country_code" value="389"/>
+        </insert>
+        <insert tableName="country">
+            <column name="country_name" value="Italy or Vatican"/>
+            <column name="country_code" value="39"/>
         </insert>
     </changeSet>
-
 </databaseChangeLog>

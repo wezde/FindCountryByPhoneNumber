@@ -1,6 +1,7 @@
 package com.example.findcountrybyphonenumber.entity;
 
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -11,7 +12,8 @@ import javax.persistence.Table;
 
 @Entity
 @Table
-@Data
+@Setter
+@Getter
 public class Country {
 
     @Id
@@ -24,6 +26,11 @@ public class Country {
     @Column(nullable = false)
     private String countryCode;
 
-    @Column(nullable = false)
-    private String isoCode;
+    public Country(String countryName, String countryCode) {
+        this.countryName = countryName;
+        this.countryCode = countryCode;
+    }
+
+    public Country() {
+    }
 }

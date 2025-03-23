@@ -14,14 +14,15 @@
     Java 11 (если вы хотите запускать приложение без Docker).
 
 # Быстрый старт:
-1. Клонируйте репозиторий git clone <ваш-репозиторий>
+1. Клонируйте репозиторий git clone https://github.com/wezde/FindCountryByPhoneNumber.git
                           cd <ваш-репозиторий>
 2. Запустите приложение с помощью Docker Compose " docker-compose up --build "
 3. Откройте приложение в браузере http://localhost:8088
 
 # Сборка и запуск без Docker
-1. Соберите проект с помощью Gradle ./gradlew clean build
-2. Запустите приложение java -jar build/libs/FindCountryByPhoneNumber-0.0.1-SNAPSHOT.jar
+1.Укажите в файле application.property ваши переменные окружения
+2.Соберите проект с помощью Gradle ./gradlew clean build
+3.Запустите приложение java -jar build/libs/FindCountryByPhoneNumber-0.0.1-SNAPSHOT.jar
 
 # Тестирование
 1. ./gradlew test
@@ -34,7 +35,7 @@
     URL: /api/country?phone=<номер телефона>
 
     Пример запроса:
-    curl http://localhost:8088/api/country?phone=+79123456789
+    curl http://localhost:8088/api/country?phone=79123456789
 
     Пример ответа:
     {
