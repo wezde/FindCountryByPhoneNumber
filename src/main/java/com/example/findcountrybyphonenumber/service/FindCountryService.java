@@ -1,9 +1,8 @@
 package com.example.findcountrybyphonenumber.service;
 
-import java.util.List;
-import java.util.Map;
+import com.example.findcountrybyphonenumber.entity.Country;
 
 public interface FindCountryService {
 
-    Map<String, List<String>> findCountryByPhoneNumber(String phoneNumber);
+    Country findCountryByPhoneNumber(String phoneNumber);
 }

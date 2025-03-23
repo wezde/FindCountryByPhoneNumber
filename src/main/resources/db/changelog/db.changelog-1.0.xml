@@ -14,9 +14,6 @@
             <constraints nullable="false" unique="true" />
         </column>
         <column name="country_code" type="varchar(10)">
-            <constraints nullable="false" />
-        </column>
-        <column name="iso_code" type="varchar(3)">
             <constraints nullable="false" unique="true" />
         </column>
     </createTable>
